@@ -15,139 +15,166 @@
 
 /* Default */
 static const uint32_t subghz_frequency_list[] = {
-    /* 300 - 348 */
     300000000,
     303875000,
     304250000,
     310000000,
     315000000,
     318000000,
-
-    /* 387 - 464 */
+    390000000,
+    418000000,
+    433075000,
+    433420000,
+    433920000 | FREQUENCY_FLAG_DEFAULT,
+    434420000,
+    434775000,
+    438900000,
+    868350000,
+    915000000,
+    925000000,
+    300000000,
+    303875000,
+    304250000,
+    310000000,
+    313850000, /* 2007 Honda Key */
+    315000000,
+    318000000,
+    348000000,
+    387000000,
     390000000,
     418000000,
     433075000, /* LPD433 first */
     433420000,
-    433920000 | FREQUENCY_FLAG_DEFAULT, /* LPD433 mid */
+    433920000, /* LPD433 mid */
     434420000,
     434775000, /* LPD433 last channels */
     438900000,
-
-    /* 779 - 928 */
+    464000000,
+    779000000,
     868350000,
     915000000,
     925000000,
+    928000000,
+    300000000,
+    303875000,
+    304250000,
+    310000000,
+    313850000, /* 2007 Honda Key */
+    315000000,
+    318000000,
+    348000000,
+    387000000,
+    390000000,
+    418000000,
+    433075000, /* LPD433 first */
+    433420000,
+    433920000, /* LPD433 mid */
+    434420000,
+    434775000, /* LPD433 last channels */
+    438900000,
+    464000000,
+    779000000,
+    868350000,
+    915000000,
+    925000000,
+    928000000,
+    310000000,
+    315000000,
+    318000000,
+    390000000,
+    433920000,
+    868350000,
+    310000000,
+    315000000,
+    318000000,
+    390000000,
+    433920000,
+    868350000,
+    310000000,
+    315000000,
+    318000000,
+    390000000,
+    433920000,
+    868350000,
     0,
 };
 
 static const uint32_t subghz_hopper_frequency_list[] = {
-    310000000,
-    315000000,
-    318000000,
-    390000000,
-    433920000,
-    868350000,
-    0,
-};
-
-/* Europe and Russia */
-static const uint32_t subghz_frequency_list_region_eu_ru[] = {
-    /* 300 - 348 */
     300000000,
     303875000,
     304250000,
     310000000,
     315000000,
     318000000,
-
-    /* 387 - 464 */
+    390000000,
+    418000000,
+    433075000,
+    433420000,
+    433920000 | FREQUENCY_FLAG_DEFAULT,
+    434420000,
+    434775000,
+    438900000,
+    868350000,
+    915000000,
+    925000000,
+    300000000,
+    303875000,
+    304250000,
+    310000000,
+    313850000, /* 2007 Honda Key */
+    315000000,
+    318000000,
+    348000000,
+    387000000,
     390000000,
     418000000,
     433075000, /* LPD433 first */
     433420000,
-    433920000 | FREQUENCY_FLAG_DEFAULT, /* LPD433 mid */
+    433920000, /* LPD433 mid */
     434420000,
     434775000, /* LPD433 last channels */
     438900000,
-
-    /* 779 - 928 */
+    464000000,
+    779000000,
     868350000,
     915000000,
     925000000,
-    0,
-};
-static const uint32_t subghz_hopper_frequency_list_region_eu_ru[] = {
+    928000000,
+    300000000,
+    303875000,
+    304250000,
+    310000000,
+    313850000, /* 2007 Honda Key */
+    315000000,
+    318000000,
+    348000000,
+    387000000,
+    390000000,
+    418000000,
+    433075000, /* LPD433 first */
+    433420000,
+    433920000, /* LPD433 mid */
+    434420000,
+    434775000, /* LPD433 last channels */
+    438900000,
+    464000000,
+    779000000,
+    868350000,
+    915000000,
+    925000000,
+    928000000,
     310000000,
     315000000,
     318000000,
     390000000,
     433920000,
     868350000,
-    0,
-};
-
-/* Region 0 */
-static const uint32_t subghz_frequency_list_region_us_ca_au[] = {
-    /* 300 - 348 */
-    300000000,
-    303875000,
-    304250000,
-    310000000,
-    315000000,
-    318000000,
-
-    /* 387 - 464 */
-    390000000,
-    418000000,
-    433075000, /* LPD433 first */
-    433420000,
-    433920000 | FREQUENCY_FLAG_DEFAULT, /* LPD433 mid */
-    434420000,
-    434775000, /* LPD433 last channels */
-    438900000,
-
-    /* 779 - 928 */
-    868350000,
-    915000000,
-    925000000,
-    0,
-};
-static const uint32_t subghz_hopper_frequency_list_region_us_ca_au[] = {
     310000000,
     315000000,
     318000000,
     390000000,
     433920000,
     868350000,
-    0,
-};
-
-static const uint32_t subghz_frequency_list_region_jp[] = {
-    /* 300 - 348 */
-    300000000,
-    303875000,
-    304250000,
-    310000000,
-    315000000,
-    318000000,
-
-    /* 387 - 464 */
-    390000000,
-    418000000,
-    433075000, /* LPD433 first */
-    433420000,
-    433920000 | FREQUENCY_FLAG_DEFAULT, /* LPD433 mid */
-    434420000,
-    434775000, /* LPD433 last channels */
-    438900000,
-
-    /* 779 - 928 */
-    868350000,
-    915000000,
-    925000000,
-    0,
-};
-static const uint32_t subghz_hopper_frequency_list_region_jp[] = {
     310000000,
     315000000,
     318000000,
@@ -205,18 +232,18 @@ void subghz_setting_load_default(SubGhzSetting* instance) {
     case FuriHalVersionRegionEuRu:
         subghz_setting_load_default_region(
             instance,
-            subghz_frequency_list_region_eu_ru,
-            subghz_hopper_frequency_list_region_eu_ru);
+            subghz_frequency_list,
+            subghz_hopper_frequency_list);
         break;
     case FuriHalVersionRegionUsCaAu:
         subghz_setting_load_default_region(
             instance,
-            subghz_frequency_list_region_us_ca_au,
-            subghz_hopper_frequency_list_region_us_ca_au);
+            subghz_frequency_list,
+            subghz_hopper_frequency_list);
         break;
     case FuriHalVersionRegionJp:
         subghz_setting_load_default_region(
-            instance, subghz_frequency_list_region_jp, subghz_hopper_frequency_list_region_jp);
+            instance, subghz_frequency_list, subghz_hopper_frequency_list);
         break;
 
     default:
